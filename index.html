@@ -5,28 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!--main css -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+  <!-- header -->
+  <header id="filler">
+    <div class="container">
+      <div class="row height align-items-center justify-content-center">
+        <div class="col-md-6 col-lg-4 m-5 content rounded">
+          <div class="m-3">
+              <img src="images/logo.svg" alt="logo image" class="m-3"> 
+          </div>
+          <div class="p-2 m-2">
+              <img src="images/icon-document.svg" alt="document icon" class="p-2 mx-2 icon-bg rounded">
+              <img src="images/icon-folder.svg" alt="folder icon" class="p-2 mx-2 icon-bg rounded">
+              <img src="images/icon-upload.svg" alt="uplaod icon" class="p-2 mx-2 icon-bg rounded">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-5 rounded content">
+          <p class="text-muted py-2">
+            You’ve used <b>815 GB</b> of your storage 
+          </p>
+          185 GB Left
+          <div class="progress">
+            <div class="progress-bar progress-bg" style ="width: 80%"></div>
+          </div>
+          <div class="prog my-3 text-white d-flex justify-content-between">
+            <small>0 GB</small>
+            <small>1000 GB</small>
+          </div>
+        </div>
+      </div>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Abayomi Alabi</a>.
+        </div>
+    </div>
+  </header>
+  <!-- end of header -->
 
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-<footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Abayomi Alabi</a>.
-  </disv>
-</footer>
+<!-- jquery -->
+<script src="./js/jquery-3.5.1.min.js"></script>
+<!-- bootstrap js-->
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
