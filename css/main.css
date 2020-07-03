@@ -1,0 +1,18 @@
+body{
+   background: hsl(229, 57%, 11%);
+}
+.height{
+    min-height: 100vh;
+}
+.content {
+    background: hsl(228, 56%, 26%);
+}
+.icon-bg {
+    background:hsl(229, 57%, 11%);
+}
+#filler {
+    background: url(/images/bg-desktop.png) bottom no-repeat fixed;
+}
+.progress-bg {
+    background:linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
