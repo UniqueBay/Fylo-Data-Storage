@@ -1,3 +1,6 @@
+*{
+    font-family: Raleway, (https://fonts.google.com/specimen/Raleway);
+}
 body{
    background: hsl(229, 57%, 11%);
 }
@@ -24,6 +27,37 @@ footer {
     #filler {
         background: url(/images/bg-mobile.png) center/cover no-repeat fixed;
     }
+}
+.curve {
+    border-radius: 10px 80px 10px 10px;
+    /* flex-basis: 30%; */
+}
+
+.comment{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -60px;
+    right: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    height: 70px;
+    width: 200px;
+    padding: 10px;
+    color: var(--Grayish-Blue);
+    font-weight: 700;
+}
+.comment:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0px;
+    top: 70px;
+    border: 10px solid;
+    border-color: white white transparent transparent;
 }
 a{
     color: darkgray;
