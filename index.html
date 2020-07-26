@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo data storage component</title>
   <!-- bootstrap css -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -15,43 +15,46 @@
 </head>
 <body>
   <!-- header -->
-  <header id="filler">
-    <div class="container">
-      <div class="row height align-items-center justify-content-center">
-        <div class="col-md-6 col-lg-4 mx-5 content rounded">
-          <div class="m-3">
-              <img src="images/logo.svg" alt="logo image" class="m-3"> 
+  <div id="filler">
+    <header>
+      <div class="container">
+        <div class="row height align-items-center justify-content-center">
+          <div class="col-md-6 col-lg-4 mx-5 content rounded">
+            <div class="m-3">
+                <img src="images/logo.svg" alt="logo image" class="m-3"> 
+            </div>
+            <div class="p-2 m-2">
+                <img src="images/icon-document.svg" alt="document icon" class="p-2 mx-2 icon-bg rounded">
+                <img src="images/icon-folder.svg" alt="folder icon" class="p-2 mx-2 icon-bg rounded">
+                <img src="images/icon-upload.svg" alt="uplaod icon" class="p-2 mx-2 icon-bg rounded">
+            </div>
           </div>
-          <div class="p-2 m-2">
-              <img src="images/icon-document.svg" alt="document icon" class="p-2 mx-2 icon-bg rounded">
-              <img src="images/icon-folder.svg" alt="folder icon" class="p-2 mx-2 icon-bg rounded">
-              <img src="images/icon-upload.svg" alt="uplaod icon" class="p-2 mx-2 icon-bg rounded">
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 rounded content">
-          <p class="text-muted py-2">
-            You’ve used <b>815 GB</b> of your storage 
-          </p>
-          <div class="d-flex justify-content-end">
-          <strong class="text-white">185 GB Left</strong> 
-          </div>
-          <div class="progress">
-            <div class="progress-bar progress-bg" style ="width: 80%"></div>
-          </div>
-          <div class="prog my-3 text-white d-flex justify-content-between text-muted">
-            <strong>0 GB</strong>
-            <strong>1000 GB</strong>
+          <div class="col-md-6 col-lg-4 rounded content">
+            <p class="text-muted py-2">
+              You’ve used <b>815 GB</b> of your storage 
+            </p>
+            <div class="d-flex justify-content-end">
+            <strong class="text-white">185 GB Left</strong> 
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bg" style ="width: 80%"></div>
+            </div>
+            <div class="prog my-3 text-white d-flex justify-content-between text-muted">
+              <strong>0 GB</strong>
+              <strong>1000 GB</strong>
+            </div>
           </div>
         </div>
       </div>
-      <footer class="attribution d-flex align-items-center justify-content-center text-muted">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
-        Coded by  <a href="https://github.com/UniqueBay" target="_blank"> Abayomi Alabi</a>.
-      </footer>
-    </div>
-  </header>
+    </header>
   <!-- end of header -->
-
+  <!-- footer -->
+  <footer class="attribution d-flex align-items-center justify-content-center text-muted">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+    Coded by  <a href="https://github.com/UniqueBay" target="_blank"> Abayomi Alabi</a>.
+  </footer>
+  <!-- end of footer -->
+</div>
 <!-- jquery -->
 <script src="./js/jquery-3.5.1.min.js"></script>
 <!-- bootstrap js-->
