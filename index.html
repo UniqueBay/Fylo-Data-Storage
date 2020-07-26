@@ -8,6 +8,8 @@
   <title>Frontend Mentor | Fylo data storage component</title>
   <!-- bootstrap css -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- font-awesome -->
+    <script src="./js/all.js"></script>
   <!--main css -->
   <link rel="stylesheet" href="./css/main.css">
 </head>
@@ -30,19 +32,21 @@
           <p class="text-muted py-2">
             You’ve used <b>815 GB</b> of your storage 
           </p>
-          185 GB Left
+          <div class="d-flex justify-content-end">
+          <strong class="text-white">185 GB Left</strong> 
+          </div>
           <div class="progress">
             <div class="progress-bar progress-bg" style ="width: 80%"></div>
           </div>
-          <div class="prog my-3 text-white d-flex justify-content-between">
-            <small>0 GB</small>
-            <small>1000 GB</small>
+          <div class="prog my-3 text-white d-flex justify-content-between text-muted">
+            <strong>0 GB</strong>
+            <strong>1000 GB</strong>
           </div>
         </div>
       </div>
       <footer class="attribution d-flex align-items-center justify-content-center text-muted">
-        Challenge by &nbsp; <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by &nbsp; <a href="https://github.com/UniqueBay" target="_blank"> Abayomi Alabi</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+        Coded by  <a href="https://github.com/UniqueBay" target="_blank"> Abayomi Alabi</a>.
       </footer>
     </div>
   </header>
