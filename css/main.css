@@ -2,7 +2,7 @@
     font-family: Raleway, (https://fonts.google.com/specimen/Raleway);
 }
 body{
-   background: hsl(229, 57%, 11%);
+    background: hsl(229, 57%, 11%);
 }
 footer {
     min-height: 10vh;
@@ -32,7 +32,6 @@ footer {
     border-radius: 10px 80px 10px 10px;
     /* flex-basis: 30%; */
 }
-
 .comment{
     position:absolute;
     display: flex;
